@@ -2,7 +2,7 @@ package Fundamentals.Variables;
 
 public class VariableMethods {
     public static void main(String[] args) {
-        /**
+        /** (SEE 1C2 FOR MORE INFORMATION)
          * DEMONSTRATING STRING METHODS IN JAVA
          *
          * This example shows common String operations with clear examples.
@@ -46,7 +46,7 @@ public class VariableMethods {
         System.out.printf("%-30s: %d%n", "sentence.indexOf('z')", sentence.indexOf("z"));  // -1 means not found
         System.out.printf("%-30s: %b%n", "sentence.contains(\"z\")", sentence.contains("z"));  // Boolean check
 
-        // 6. PREFIX/SUFFIX CHECKING
+        // 6. PREFIX/SUFFIX CHECKING (1C10)
         System.out.println("\n=== PREFIX/SUFFIX CHECKING ===");
         System.out.printf("%-30s: %b%n", "sentence.startsWith(\"Jhon\")", sentence.startsWith("Jhon"));
         System.out.printf("%-30s: %b%n", "sentence.endsWith(\"<>\")", sentence.endsWith("<>"));
