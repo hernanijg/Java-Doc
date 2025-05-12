@@ -19,7 +19,7 @@ public class VariableMethods {
         System.out.printf("%-30s: %s%n", "singleName.toUpperCase()", singleName.toUpperCase());
         System.out.printf("%-30s: %s%n", "   trim example   ".trim(), "   trim example   ".trim());
 
-        // 2. STRING COMPARISON (1C6)
+        // 2. STRING COMPARISON
         System.out.println("\n=== STRING COMPARISON ===");
         System.out.printf("%-30s: %b%n", "singleName.equals(\"Jhon Doe\")", singleName.equals("Jhon Doe"));
         System.out.printf("%-30s: %b%n", "singleName.equalsIgnoreCase(\"jhon doe\")",
@@ -27,19 +27,19 @@ public class VariableMethods {
         System.out.printf("%-30s: %d%n", "singleName.compareTo(\"Jhon Doe\")",
                 singleName.compareTo("Jhon Doe"));  // Lexicographical order (0 means equal)
 
-        // 3. CHARACTER AND SUBSTRING EXTRACTION (1C7)
+        // 3. CHARACTER AND SUBSTRING EXTRACTION
         System.out.println("\n=== CHARACTER EXTRACTION ===");
-        System.out.printf("%-30s: %c%n", "singleName.charAt(0)", singleName.charAt(0));
-        System.out.printf("%-30s: %s%n", "singleName.substring(2)", singleName.substring(2));
-        System.out.printf("%-30s: %s%n", "singleName.substring(2, 5)", singleName.substring(2, 5));
+        System.out.printf("%-30s: %c%n", "singleName.charAt(0)", singleName.charAt(0)); // 1C2
+        System.out.printf("%-30s: %s%n", "singleName.substring(2)", singleName.substring(2)); // 1C3
+        System.out.printf("%-30s: %s%n", "singleName.substring(2, 5)", singleName.substring(2, 5)); // 1C3
         System.out.printf("%-30s: %s%n", "singleName.substring(length-1)",
                 singleName.substring(singleName.length()-1));
 
-        // 4. STRING MANIPULATION (1C8)
+        // 4. STRING MANIPULATION (1C3)
         System.out.println("\n=== STRING MANIPULATION ===");
         System.out.printf("%-30s: %s%n", "sentence.replace(\"o\", \"O\")", sentence.replace("o", "O"));
 
-        // 5. SEARCH OPERATIONS (1C9)
+        // 5. SEARCH OPERATIONS (1C2)
         System.out.println("\n=== SEARCH OPERATIONS ===");
         System.out.printf("%-30s: %d%n", "sentence.indexOf(\"un\")", sentence.indexOf("un"));  // First occurrence
         System.out.printf("%-30s: %d%n", "sentence.lastIndexOf(\"o\")", sentence.lastIndexOf("o"));  // Last occurrence
